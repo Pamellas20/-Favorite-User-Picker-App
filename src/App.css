@@ -1,7 +1,7 @@
 :root {
-  --primary: #4a3520; /* Dark chocolate */
+  --primary: #4a3520; 
   --primary-light: #6b5038;
-  --secondary: #d2b48c; /* Tan */
+  --secondary: #d2b48c; 
   --secondary-light: #e6d7c3;
   --text-dark: #2e1e12;
   --text-light: #8a7866;
@@ -46,7 +46,7 @@ h2 {
   font-size: 1.2rem;
 }
 
-/* User Display Styles */
+
 .user-display {
   background-color: var(--secondary);
   color: var(--text-dark);
@@ -82,7 +82,7 @@ h2 {
   background-color: #b55a3a;
 }
 
-/* User Picker Styles */
+
 .user-picker {
   background-color: var(--bg-white);
   border-radius: var(--border-radius);
@@ -129,14 +129,14 @@ h2 {
   font-style: italic;
 }
 
-/* Loading state */
+
 .loading {
   text-align: center;
   padding: 20px;
   color: var(--text-light);
 }
 
-/* Error state */
+
 .error {
   background-color: #f8d7d0;
   border-left: 3px solid var(--danger);
